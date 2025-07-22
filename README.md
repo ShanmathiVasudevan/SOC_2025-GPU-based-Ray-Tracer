@@ -1,6 +1,6 @@
 # SOC_2025-GPU-based-Ray-Tracer
-Shanmathi Vasudevan 24B1020 Indian Institute of Technology Bombay
-Seasons of Code project 2025, offered by Web and Coding Club, IIT Bombay
+This is my Seasons of Code project 2025, offered by Web and Coding Club, IIT Bombay. Project ID 85 - GPU based Ray Tracer.
+
 This project aims to build a ray tracer optimised for GPU acceleration. Ray tracing is used in computer graphics to produce realistic images by tracing the path of light from the camera to the light sources. Due to its computational nature, we should use GPUs in order to render the images quickly.
 My main learnings so far have been
 - Basics of ray tracing: Understanding the basic maths behind the ray tracing concept; we wish to find the points where a ray intersects an object, by writing their equations in the 3D space. This simulates how the light interacts; if it hits an object, it illuminates it, and if not, it just shows the background. We can create gradient with a simple formula of colour1 x a + colour2 x (1-a), where a ranges from -1 to 1.
@@ -21,3 +21,5 @@ References:
 - https://raytracing.github.io/books/RayTracingInOneWeekend.html For the entire CPU implementation. We have done till chapter 11 here.
 - https://codeplay.com/portal/blogs/2020/05/19/ray-tracing-in-a-weekend-with-sycl-basic-sphere-tracing For the SYCL implementation in week3.
 - https://www.codeplay.com/portal/blogs/2020/06/19/ray-tracing-in-a-weekend-with-sycl-part-2-pixel-sampling-and-material-tracing.html For the SYCL implementation in week5.
+
+Thanks to my mentor Keyaan KR and co-mentor Aayush Borkar for their help and guidance.
